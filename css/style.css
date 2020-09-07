@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #24282f;
+    padding-top: 31px;
+}
+.container{
+    margin: auto;
+    max-width: 1094px;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 52px;
+}
+header nav ul li a{
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header nav ul li:after{
+    content: "";
+    display: block;
+    margin-top: 33px;
+    width: 0;
+    height: 2px;
+    background-color: #b5a263;
+    transition: 0.3s;
+}
+header nav ul li:hover:after{
+    width: 100%;
+}
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+}
+.about_as p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.about_as{
+    background-image: url("../images/section_light_06.jpg");
+    background-size: cover;
+    padding-top: 71px;
+    padding-bottom: 85px;
+
+
+}
+.center_bloc{
+    padding-top: 121px;
+    padding-bottom: 24px;
+    margin: auto;
+    max-width: 887px;
+}
+
+.management h2{
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.management  h2:after{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 2px;
+    background-color: #b5a263;
+    margin-top: 24px;
+}
+.profession{
+    margin: auto;
+    max-width: 887px;
+    display: flex;
+    justify-content: space-between;
+}
+.profession h3{
+    font-size: 13px;
+    margin-top: 22px;
+    text-transform: uppercase;
+    margin-left: 9px;
+}
+.profession p{
+    font-size: 11px;
+    color: #bdac74;
+    margin-left: 9px;
+}
+.show_all{
+    content: "";
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 35px;
+
+}
